@@ -16,11 +16,11 @@
     display: block;
     width: 100%;
     transition: 
-      background-color .2s ease-in-out, 
-      color .2s ease-in-out;
+    background-color .2s ease-in-out, 
+    color .2s ease-in-out;
+    &:hover {
+      color: $white;
+      background-color: lighten($viking, 10%);
+    }
   }
   
-  .nav-link:hover {
-    color: #fff;
-    background-color: $viking;
-  }

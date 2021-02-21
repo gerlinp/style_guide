@@ -523,10 +523,10 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 23, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_navigation.scss */
+/* line 21, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_navigation.scss */
 .nav-link:hover {
   color: #fff;
-  background-color: #58e1c1;
+  background-color: #83e9d1;
 }
 
 /* ============================================= */
@@ -542,7 +542,7 @@ a {
   max-height: 100%;
 }
 
-/* line 14, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_images.scss */
+/* line 12, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -553,7 +553,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 24, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_images.scss */
+/* line 20, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -655,99 +655,99 @@ a {
 @media (min-width: 768px) {
   /* line 6, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .container {
-    max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1400px;
   }
-  /* line 13, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 11, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 19, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 15, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .row {
     flex-direction: row;
   }
-  /* line 23, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 19, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
-  /* line 30, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 26, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 34, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 30, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 38, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 34, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 42, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 38, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 46, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 42, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 50, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 46, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 54, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 50, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 58, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 54, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 62, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 58, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 66, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 62, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 70, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 66, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 74, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 70, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 78, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 74, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 82, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 78, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 88, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 84, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 92, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 88, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 96, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 90, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 100, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
+  /* line 95, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;

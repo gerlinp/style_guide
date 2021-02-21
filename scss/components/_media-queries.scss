@@ -4,16 +4,12 @@
 @media (min-width: $break-tablet) {
 
     .container {
+      @include display-margin;
       max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
     }
     
     .centered {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include display-margin;
     }
     
     .row {
@@ -91,10 +87,9 @@
     
     .btn {
       padding: 10px 30px;
-    }
-    
-    .btn + .btn {
-      margin-left: 10px;
+      & + .btn {
+        margin-left: 10px;
+      }
     }
     
     .logo {
