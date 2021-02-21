@@ -71,7 +71,7 @@ a {
 }
 
 .theme.col-1 {
-  background-color: #927bc1;
+  background-color: $purple-mountains-majesty;
 }
 
 .theme.col-2 {
@@ -140,8 +140,8 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition: 
-    background-color .2s ease-in-out, 
+  transition:
+    background-color .2s ease-in-out,
     color .2s ease-in-out;
 }
 
@@ -222,7 +222,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  max-width: 100%; 
+  max-width: 100%;
   max-height: 100%;
 }
 
