@@ -449,27 +449,33 @@ a {
   border-radius: 5px;
 }
 
-/* line 15, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+/* line 13, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+.btn:hover {
+  color: #fff;
+  background-color: #b5f1fe;
+}
+
+/* line 19, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 19, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+/* line 23, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+/* line 27, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+/* line 31, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+/* line 35, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
 .warning {
   background-color: #FD7856;
 }
