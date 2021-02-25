@@ -449,35 +449,59 @@ a {
   border-radius: 5px;
 }
 
-/* line 13, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
-.btn:hover {
-  color: #fff;
-  background-color: #b5f1fe;
-}
-
-/* line 19, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+/* line 16, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 23, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+/* line 18, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+.default:hover {
+  color: #fff;
+  background-color: #b5f1fe;
+}
+
+/* line 24, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 27, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+/* line 26, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+.error:hover {
+  color: #fff;
+  background-color: #f5cacc;
+}
+
+/* line 32, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 31, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+/* line 34, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+.info:hover {
+  color: #fff;
+  background-color: #cbc0e2;
+}
+
+/* line 40, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 35, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+/* line 42, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+.success:hover {
+  color: #fff;
+  background-color: #b0e5c0;
+}
+
+/* line 48, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
 .warning {
   background-color: #FD7856;
+}
+
+/* line 50, ../../../Users/Gerlin/Documents/Code/style_guide_v7/scss/components/_buttons.scss */
+.warning:hover {
+  color: #fff;
+  background-color: #fec9bb;
 }
 
 /* ============================================= */

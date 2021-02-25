@@ -10,28 +10,45 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    
+  }
+  
+  .default {
+    background-color: $malibu;
     &:hover {
       color: $white;
       background-color: lighten($malibu, 20%);
     }
   }
   
-  .default {
-    background-color: $malibu;
-  }
-  
   .error {
     background-color: $sunglo;
+    &:hover {
+      color: $white;
+      background-color: lighten($sunglo, 20%);
+    }
   }
   
   .info {
     background-color: $purple-mountains-majesty;
+    &:hover {
+      color: $white;
+      background-color: lighten($purple-mountains-majesty, 20%);
+    }
   }
   
   .success {
     background-color: $emerald;
+    &:hover {
+      color: $white;
+      background-color: lighten($emerald, 20%);
+    }
   }
   
   .warning {
     background-color: $coral;
+    &:hover {
+      color: $white;
+      background-color: lighten($coral, 20%);
+    }
   }
